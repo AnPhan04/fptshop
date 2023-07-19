@@ -1,0 +1,17 @@
+body .btn {
+    background: white;
+    color: #8b94ad;
+    border: 1px solid #8b94ad;
+}
+
+.priority-filter-option:active,
+.priority-filter-option:focus {
+    background: red;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.priority-filter-option:hover {
+    background: #8b94ad;
+    color: white;
+}

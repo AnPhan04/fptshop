@@ -1,0 +1,207 @@
+{
+  "products": [
+    {
+      "categoryId": 1,
+      "id": 1,
+      "supplierId": 1,
+      "name": "Samsung Galaxy Z Flip4 5G",
+      "memory": "128GB",
+      "image": "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/10/637957658354316100_samsung-galaxy-z-flip4-tim-1.jpg",
+      "price": 14990000
+    },
+    {
+      "categoryId": 1,
+      "id": 2,
+      "supplierId": 2,
+      "name": "iPhone 11",
+      "memory": "64GB",
+      "image": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iphone_11-rosette-family-lineup-091019_big.jpg.large.jpg",
+      "price": 10680000
+    },
+    {
+      "categoryId": 1,
+      "id": 3,
+      "supplierId": 2,
+      "name": "iPhone 13",
+      "memory": "128GB",
+      "image": "https://bizweb.dktcdn.net/100/310/135/files/iphone-13-select-2021-jpeg.jpg?v=1631723494688",
+      "price": 16790000
+    },
+    {
+      "categoryId": 1,
+      "id": 4,
+      "supplierId": 1,
+      "name": "Samsung Galaxy Z Flip4 5G",
+      "memory": "128GB",
+      "image": "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/10/637957658354316100_samsung-galaxy-z-flip4-tim-1.jpg",
+      "price": 14990000
+    },
+    {
+      "categoryId": 1,
+      "id": 5,
+      "supplierId": 2,
+      "name": "iPhone 11",
+      "memory": "64GB",
+      "image": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iphone_11-rosette-family-lineup-091019_big.jpg.large.jpg",
+      "price": 10680000
+    },
+    {
+      "categoryId": 1,
+      "id": 6,
+      "supplierId": 2,
+      "name": "iPhone 13",
+      "memory": "128GB",
+      "image": "https://bizweb.dktcdn.net/100/310/135/files/iphone-13-select-2021-jpeg.jpg?v=1631723494688",
+      "price": 16790000
+    },
+    {
+      "categoryId": 1,
+      "id": 6,
+      "supplierId": 2,
+      "name": "iPhone 13",
+      "memory": "128GB",
+      "image": "https://bizweb.dktcdn.net/100/310/135/files/iphone-13-select-2021-jpeg.jpg?v=1631723494688",
+      "price": 16790000
+    },
+    {
+      "categoryId": 2,
+      "id": 7,
+      "supplierId": 5,
+      "name": "Laptop Asus Vivobook M513UA-EJ704W R7 5700U/8GB/512GB SSD/15.6''FHD/Win11",
+      "memory": "128GB",
+      "image": "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/2/638109316757538562_asus-vivobook-m513ua-ej704w-r7-5700u-bac-4.jpg",
+      "price": 14490000
+    },
+    {
+      "categoryId": 2,
+      "id": 8,
+      "supplierId": 5,
+      "name": "Laptop Asus Vivobook 15 OLED A1505VA-L1113W i5 13500H/16GB/512GB/15.6''FHD/Win11",
+      "memory": "128GB",
+      "image": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/4/19/638175167717566831_asus-vivobook-a1505va-l1113w-i5-13500h-bac-dd-moi.jpg",
+      "price": 17990000
+    },
+    {
+      "categoryId": 2,
+      "id": 9,
+      "supplierId": 5,
+      "name": "Laptop Asus Vivobook X515EA-EJ322W i3 1115G4/8GB/512GB/15.6''FHD/Win 11",
+      "memory": "128GB",
+      "image": "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/3/1/637502180353670464_asus-vivobook-x515-print-bac-1.jpg",
+      "price": 17990000
+    },
+    {
+      "categoryId": 2,
+      "id": 10,
+      "supplierId": 6,
+      "name": "MacBook Pro 16 inch M2 Pro 2023 12CPU 19GPU 32GB/512GB",
+      "memory": "512GB",
+      "image": "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/18/638096362865805076_macbook-pro-16-2023-m2-pro-xam-8.jpg",
+      "price": 76990000
+    },
+    {
+      "categoryId": 2,
+      "id": 11,
+      "supplierId": 6,
+      "name": "MacBook Pro 14 inch M1 Pro 2021 10CPU 16GPU 16GB/1TB",
+      "memory": "1TB",
+      "image": "https://cdn.tgdd.vn/Products/Images/44/253703/apple-macbook-pro-14-m1-pro-2021-10-core-cpu-1-1-600x600.jpg",
+      "price": 44990000
+    },
+    {
+      "categoryId": 2,
+      "id": 11,
+      "supplierId": 6,
+      "name": "MacBook Air 15 inch M2 2023 8CPU 10GPU 8GB/256GB",
+      "memory": "512GB",
+      "image": "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/6/6/638216322096898543_macbook-air-m2-2023-15-inch-xanh-1.jpg",
+      "price": 32290000
+    }
+  ],
+  "categories": [
+    {
+      "categoryId": 1,
+      "name": "Điện thoại",
+      "img": [
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/14/638249747560406686_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638251500344121980_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/1/638238052854630945_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/7/638243387430108761_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/4/638240657452735688_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/4/638240842049916836_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/1/638237684248000102_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638252265551520212_F-C1_1200x300iP13%20EVO.png"
+      ]
+    },
+    {
+      "categoryId": 2,
+      "name": "Tablet",
+      "img": [
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/14/638249747560406686_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638251500344121980_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/1/638238052854630945_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/7/638243387430108761_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/4/638240657452735688_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/4/638240842049916836_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/1/638237684248000102_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638252265551520212_F-C1_1200x300iP13%20EVO.png"
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "name": "Samsung"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "name": "Apple"
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "name": "Xiaomi"
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "name": "Oppo"
+    },
+    {
+      "id": 5,
+      "categoryId": 2,
+      "name": "Asus"
+    },
+    {
+      "id": 6,
+      "categoryId": 2,
+      "productLine": [
+        {
+          "id": 1,
+          "name": "MacBook Pro 16"
+        },
+        {
+          "id": 2,
+          "name": "MacBook Air"
+        },
+        {
+          "id": 3,
+          "name": "MacBook Air 15"
+        }
+      ],
+      "name": "Apple"
+    },
+    {
+      "id": 7,
+      "categoryId": 2,
+      "name": "Lenovo"
+    },
+    {
+      "id": 8,
+      "categoryId": 2,
+      "name": "Dell"
+    }
+  ]
+}
