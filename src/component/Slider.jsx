@@ -2,9 +2,9 @@ const Slider = () => {
   return (
     <div
       id="carouselExampleControls"
-      className="carousel slide home-body"
+      className="carousel slide "
       data-ride="carousel"
-      // style={{ margin: 0, padding: "0 20rem" }}
+      style={{ paddingBottom: "1.5rem" }}
     >
       <ol className="carousel-indicators">
         <li
@@ -59,5 +59,4 @@ const Slider = () => {
     </div>
   );
 };
-
 export default Slider;

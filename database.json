@@ -125,6 +125,24 @@
       "price": "18490000",
       "supplierId": 2,
       "id": 12
+    },
+    {
+      "name": "",
+      "price": "",
+      "image": "",
+      "categoryId": "",
+      "memory": "",
+      "supplierId": 2,
+      "id": 13
+    },
+    {
+      "categoryId": 1,
+      "name": "iPhone 14",
+      "memory": "128GB",
+      "image": "https://cdn-v2.didongviet.vn/files/media/catalog/product/i/p/iphone-14-128gb-mau-tim-1-didongviet.jpg",
+      "price": "14900000",
+      "supplierId": 2,
+      "id": 14
     }
   ],
   "categories": [

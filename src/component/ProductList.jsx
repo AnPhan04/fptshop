@@ -492,9 +492,20 @@ const ProductsList = () => {
                       <div className="card-body">
                         <h5 className="card-title">{p.name}</h5>
                         <p className="card-text">{p.price}</p>
-                        <a href="#" className="btn btn-primary">
-                          UPDATE
-                        </a>
+                        <button
+                          type="button"
+                          className="btn priority-filter-option"
+                          onClick={handleFormOpen}
+                        >
+                          Update
+                        </button>
+                        <button
+                          type="button"
+                          className="btn priority-filter-option"
+                          onClick={handleFormOpen}
+                        >
+                          Delete
+                        </button>
                       </div>
                     </div>
                   </div>
