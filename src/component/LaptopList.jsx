@@ -114,10 +114,9 @@ const LaptopList = () => {
   };
 
   const filteredLaptops = filterProductsByPrice(
-    filterProductsBySuppliers(laptops)
-    // .filter((p) =>
-    //   p.name.toLowerCase().includes(searchValue)
-    // )
+    filterProductsBySuppliers(laptops).filter((p) =>
+      p.name.toLowerCase().includes(searchValue)
+    )
   );
 
   /* const [newProduct, setNewProduct] = useState({
@@ -231,6 +230,7 @@ const LaptopList = () => {
   return (
     <div>
       <Header />
+      <Breadcrumb categoryId={1} />
       <div className="product-slider home-body">
         <ProductSlider />
       </div>
@@ -333,7 +333,7 @@ const LaptopList = () => {
         </div>
         <div className="col-lg-9">
           <div style={{ background: "white", margin: "2em 0", padding: "1em" }}>
-            <h2>Laptop</h2>
+            <h2>Laptop ({filteredLaptops.length} sản phẩm)</h2>
           </div>
           <div style={{ background: "white", margin: "2em 0", padding: "1em" }}>
             <div className="priority-filter">

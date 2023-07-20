@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='phone/*'>
+        <Route path='dien-thoai/*'>
           <Route path='' element={<ProductList />}></Route>
           <Route path='1' element={<ProductDetails />}></Route>
           {/* <Route path='update/'>

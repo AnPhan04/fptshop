@@ -4,7 +4,7 @@ const ProductSlider = () => {
       id="carouselExampleIndicators"
       class="carousel slide"
       data-ride="carousel"
-      
+      style={{paddingBottom: "3rem"}}
     >
       <ol class="carousel-indicators">
         <li

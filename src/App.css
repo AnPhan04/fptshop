@@ -7,7 +7,7 @@
 @media screen and (min-width: 950px) {
   .home-body {
     margin: 0;
-    padding: 0 20rem;
+    padding: 0 21rem;
     background-color: #f8f9fa;
   }
 
@@ -19,8 +19,17 @@
     padding: 0 20rem;
   }
 
-  /* div {
-    border-radius: 5px;
-  } */
-  
+  .nav-link {
+    color: white;
+    padding: .5rem 0.75rem;
+  }
+
+  .nav-link:hover {
+    color: black;
+    background-color: white;
+  }
+
+  .product-slider {
+    padding: 1.5em 0;
+  }
 }

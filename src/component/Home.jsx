@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
-import ProductSlider from "./ProductSlider";
 
 const Home = () => {
   return (
@@ -21,9 +20,8 @@ const Home = () => {
             style={{ width: "100%" }}
           />
         </div>
-        <ProductSlider />
-        <Footer />
       </main>
+      <Footer />
     </div>
   );
 };

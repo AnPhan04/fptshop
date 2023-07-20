@@ -116,12 +116,22 @@
       "memory": "512GB",
       "image": "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/6/6/638216322096898543_macbook-air-m2-2023-15-inch-xanh-1.jpg",
       "price": 32290000
+    },
+    {
+      "categoryId": 1,
+      "name": "iPhone 14",
+      "memory": "128GB",
+      "image": "https://cdn-v2.didongviet.vn/files/media/catalog/product/i/p/iphone-14-128gb-mau-tim-1-didongviet.jpg",
+      "price": "18490000",
+      "supplierId": 2,
+      "id": 12
     }
   ],
   "categories": [
     {
       "categoryId": 1,
       "name": "Điện thoại",
+      "icon": "faPhone",
       "img": [
         "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/14/638249747560406686_F-C1_1200x300.png",
         "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638251500344121980_F-C1_1200x300.png",
@@ -135,7 +145,128 @@
     },
     {
       "categoryId": 2,
-      "name": "Tablet",
+      "name": "Laptop",
+      "icon": "faLaptop",
+      "img": [
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/14/638249747560406686_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638251500344121980_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/1/638238052854630945_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/7/638243387430108761_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/4/638240657452735688_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/4/638240842049916836_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/1/638237684248000102_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638252265551520212_F-C1_1200x300iP13%20EVO.png"
+      ]
+    },
+    {
+      "categoryId": 3,
+      "name": "Máy tính bảng",
+      "icon": "faTablet",
+      "img": [
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/14/638249747560406686_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638251500344121980_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/1/638238052854630945_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/7/638243387430108761_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/4/638240657452735688_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/4/638240842049916836_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/1/638237684248000102_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638252265551520212_F-C1_1200x300iP13%20EVO.png"
+      ]
+    },
+    {
+      "categoryId": 4,
+      "name": "Apple",
+      "icon": "faAppleAlt",
+      "img": [
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/14/638249747560406686_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638251500344121980_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/1/638238052854630945_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/7/638243387430108761_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/4/638240657452735688_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/4/638240842049916836_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/1/638237684248000102_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638252265551520212_F-C1_1200x300iP13%20EVO.png"
+      ]
+    },
+    {
+      "categoryId": 5,
+      "name": "PC",
+      "icon": "faDesktop",
+      "img": [
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/14/638249747560406686_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638251500344121980_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/1/638238052854630945_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/7/638243387430108761_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/4/638240657452735688_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/4/638240842049916836_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/1/638237684248000102_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638252265551520212_F-C1_1200x300iP13%20EVO.png"
+      ]
+    },
+    {
+      "categoryId": 6,
+      "name": "Phụ kiện",
+      "icon": "faKeyboard",
+      "img": [
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/14/638249747560406686_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638251500344121980_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/1/638238052854630945_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/7/638243387430108761_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/4/638240657452735688_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/4/638240842049916836_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/1/638237684248000102_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638252265551520212_F-C1_1200x300iP13%20EVO.png"
+      ]
+    },
+    {
+      "categoryId": 7,
+      "name": "Máy cũ giá rẻ",
+      "icon": "faRecycle",
+      "img": [
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/14/638249747560406686_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638251500344121980_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/1/638238052854630945_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/7/638243387430108761_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/4/638240657452735688_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/4/638240842049916836_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/1/638237684248000102_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638252265551520212_F-C1_1200x300iP13%20EVO.png"
+      ]
+    },
+    {
+      "categoryId": 8,
+      "name": "Hàng gia dụng",
+      "icon": "faHouse",
+      "img": [
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/14/638249747560406686_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638251500344121980_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/1/638238052854630945_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/7/638243387430108761_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/4/638240657452735688_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/4/638240842049916836_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/1/638237684248000102_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638252265551520212_F-C1_1200x300iP13%20EVO.png"
+      ]
+    },
+    {
+      "categoryId": 9,
+      "name": "Sim thẻ",
+      "icon": "faSimCard",
+      "img": [
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/14/638249747560406686_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638251500344121980_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/1/638238052854630945_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/7/638243387430108761_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/4/638240657452735688_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/4/638240842049916836_F-C1_1200x300@2x.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/1/638237684248000102_F-C1_1200x300.png",
+        "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638252265551520212_F-C1_1200x300iP13%20EVO.png"
+      ]
+    },
+    {
+      "categoryId": 10,
+      "name": "Khuyến mãi",
+      "icon": "faTags",
       "img": [
         "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/14/638249747560406686_F-C1_1200x300.png",
         "https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/17/638251500344121980_F-C1_1200x300.png",

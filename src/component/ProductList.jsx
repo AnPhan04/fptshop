@@ -6,34 +6,31 @@ import Header from "./Header";
 const ProductsList = () => {
   const [products, setProducts] = useState([]);
   const [suppliers, setSuppliers] = useState([]);
-  const [categories, setCategories] = useState([]);
   const [checkedSupplier, setCheckedSupplier] = useState([]);
   const [allChecked, setAllChecked] = useState(false);
   const [checkedPrice, setCheckedPrice] = useState([]);
   const [searchValue, setSearchValue] = useState("");
+  const [allSuppliers, setAllSuppliers] = useState([]);
 
   useEffect(() => {
     const getProductsList = async () => {
       const response = await fetch("http://localhost:9999/products");
       const jsonData = await response.json();
-      setProducts(jsonData);
+      const prods = jsonData.filter((l) => l.categoryId === 1);
+      setProducts(prods);
+      console.log(prods);
     };
     const getSuppliersList = async () => {
       const response = await fetch("http://localhost:9999/suppliers");
       const jsonData = await response.json();
-      setSuppliers(jsonData);
-      console.log(jsonData);
-    };
-    const getCategories = async () => {
-      const response = await fetch("http://localhost:9999/categories");
-      const jsonData = await response.json();
-      setCategories(jsonData);
-      console.log(jsonData);
+      setAllSuppliers(jsonData);
+      const prods = jsonData.filter((l) => l.categoryId === 1);
+      setSuppliers(prods);
+      console.log(prods);
     };
 
     getSuppliersList();
     getProductsList();
-    getCategories();
   }, []);
 
   const filterSuppliers = (event, id) => {
@@ -136,14 +133,21 @@ const ProductsList = () => {
     )
   );
 
-  /* const [newProduct, setNewProduct] = useState({
+  const [newProduct, setNewProduct] = useState({
+    categoryId: 1,
     name: "",
-    price: "",
-    image: "",
-    categoryId: "",
     memory: "",
+    image: "",
+    price: "",
     supplierId: "",
   });
+
+  const [selectedSupplier, setSelectedSupplier] = useState("");
+
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setNewProduct({ ...newProduct, [name]: value });
+  };
 
   const createProduct = async () => {
     try {
@@ -152,7 +156,10 @@ const ProductsList = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(newProduct),
+        body: JSON.stringify({
+          ...newProduct,
+          supplierId: parseInt(selectedSupplier),
+        }),
       });
 
       if (!response.ok) {
@@ -188,11 +195,6 @@ const ProductsList = () => {
     event.preventDefault();
     createProduct(); // Create the new product
     handleFormClose(); // Close the form after submission
-  };
-
-  const handleInputChange = (event) => {
-    const { name, value } = event.target;
-    setNewProduct({ ...newProduct, [name]: value });
   };
 
   const updateProduct = async (productId, updatedProduct) => {
@@ -242,12 +244,12 @@ const ProductsList = () => {
     } catch (error) {
       console.error(error);
     }
-  }; */
+  };
 
   return (
     <div>
       <Header />
-      <Breadcrumb/>
+      <Breadcrumb categoryId={0} />
       <div className="product-slider home-body">
         <ProductSlider />
       </div>
@@ -349,14 +351,10 @@ const ProductsList = () => {
           </div>
         </div>
         <div className="col-lg-9">
-          <div
-            style={{ background: "white", margin: "2em 0", padding: "1em" }}
-          >
+          <div style={{ background: "white", margin: "2em 0", padding: "1em" }}>
             <h2>Điện thoại ({filteredProducts.length} sản phẩm)</h2>
           </div>
-          <div
-            style={{ background: "white", margin: "2em 0", padding: "1em" }}
-          >
+          <div style={{ background: "white", margin: "2em 0", padding: "1em" }}>
             <div className="priority-filter">
               Ưu tiên xem:
               <button
@@ -385,7 +383,97 @@ const ProductsList = () => {
                 onChange={searchByName}
                 placeholder="Search by name"
               />
+              <button
+                type="button"
+                className="btn priority-filter-option"
+                onClick={handleFormOpen}
+              >
+                Add Product
+              </button>
             </div>
+
+            {isFormOpen && (
+              <form onSubmit={handleFormSubmit}>
+                <div className="form-group">
+                  <label htmlFor="name">Product Name:</label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="name"
+                    name="name"
+                    value={newProduct.name}
+                    onChange={handleInputChange}
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="memory">Memory:</label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="memory"
+                    name="memory"
+                    value={newProduct.memory}
+                    onChange={handleInputChange}
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="image">Image URL:</label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="image"
+                    name="image"
+                    value={newProduct.image}
+                    onChange={handleInputChange}
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="price">Price:</label>
+                  <input
+                    type="number"
+                    className="form-control"
+                    id="price"
+                    name="price"
+                    value={newProduct.price}
+                    onChange={handleInputChange}
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="supplierId">Supplier:</label>
+                  <select
+                    className="form-control"
+                    id="supplierId"
+                    name="supplierId"
+                    value={selectedSupplier}
+                    onChange={(e) => setSelectedSupplier(e.target.value)}
+                    required
+                  >
+                    <option value="" disabled>
+                      Select a supplier
+                    </option>
+                    {suppliers.map((supplier) => (
+                      <option key={supplier.id} value={supplier.id}>
+                        {supplier.name}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+                <button type="submit" className="btn btn-primary">
+                  Add Product
+                </button>
+                <button
+                  type="button"
+                  className="btn btn-secondary"
+                  onClick={handleFormClose} // Hide the form when this button is clicked
+                >
+                  Cancel
+                </button>
+              </form>
+            )}
 
             <div className="container" style={{ margin: "2em 0" }}>
               <div className="row">
@@ -405,7 +493,7 @@ const ProductsList = () => {
                         <h5 className="card-title">{p.name}</h5>
                         <p className="card-text">{p.price}</p>
                         <a href="#" className="btn btn-primary">
-                          MUA NGAY
+                          UPDATE
                         </a>
                       </div>
                     </div>
